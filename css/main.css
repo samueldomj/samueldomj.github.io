@@ -308,6 +308,10 @@ img {
   display: block;
 }
 
+.card__actions .button {
+  margin-right: 1rem;
+}
+
 .card--large .card__figure-img {
   width: 100%;
   height: 200px;
@@ -325,17 +329,6 @@ img {
 
 .card--large .card__content p {
   margin-bottom: 2rem;
-}
-
-.card--medium {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 3.5rem 0;
-}
-
-.card--medium .card__figure {
-  margin: auto;
 }
 
 .card--small {
